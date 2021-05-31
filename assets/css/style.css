@@ -1,0 +1,260 @@
+body {
+    background-color: #f0f0f0;
+}
+
+#header {
+    padding: 0px 30px;
+    background-color: #f2d4d4;
+}
+
+#header .div2 {
+    color: #000;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    font-size: 24px;
+}
+
+#header .div1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+    text-align: right;
+    padding: 15px 0px 0px 0px;
+    float: right;
+}
+
+.heading {
+    margin-top: 20px;
+    height: 38px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #DBDBDB;
+    background: url('../images/box.png') repeat-x;
+    -webkit-border-radius: 7px 7px 0px 0px;
+    -moz-border-radius: 7px 7px 0px 0px;
+    -khtml-border-radius: 7px 7px 0px 0px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.heading h1 {
+    margin: 0px;
+    padding: 10px 10px 0px 0px;
+    color: #003A88;
+    font-size: 16px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.main>.content {
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.dashboard-heading {
+    background: #547C96;
+    color: #FFF;
+    border-bottom: 1px solid #8EAEC3;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.dashboard-content {
+    margin: 10px;
+    background: #FCFCFC;
+    border: 1px solid #8EAEC3;
+    padding: 10px;
+    min-height: 180px;
+}
+
+.list {
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+}
+
+.list td {
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.list thead td {
+    background-color: #EFEFEF;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+.list thead td a,
+.list thead td {
+    text-decoration: none;
+    color: #222222;
+}
+
+.list tbody td a {
+    text-decoration: underline;
+}
+
+.list tbody td {
+    vertical-align: middle;
+    padding: 0px 5px;
+    background: #FFFFFF;
+}
+
+.list tbody tr:hover td {
+    background-color: #FFFFCB;
+}
+
+.list .left {
+    text-align: left;
+    padding: 7px;
+}
+
+.list .right {
+    text-align: right;
+    padding: 7px;
+}
+
+.list .center {
+    text-align: center;
+    padding: 7px;
+}
+
+.dashboard-content .right {
+    text-align: right;
+    padding-left: 150px;
+}
+
+.dashboard-content table td {
+    font-size: 13px;
+}
+
+.heading .buttons {
+    padding-top: 7px;
+    margin-left: 100px;
+}
+
+.heading span a {
+    padding: 5px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.align-right {
+    margin-right: 50px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #f0f0f0;
+    color: #696969;
+}
+
+#slider {
+    border: 1px solid red;
+    height: 200px;
+    margin: 20px;
+}
+
+.articles {
+    border: 1px solid green;
+    margin: 10px;
+    height: 200px;
+}
+
+#navcontainer {
+    padding: 2px 0 10px 0;
+}
+
+.mainLogo {
+    float: left;
+    margin-top: -40px;
+}
+
+
+#login {
+    float: right;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-right: 30px;
+    margin-bottom: 10px
+}
+.logo {
+    color: #123456;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding: 0px 0 0 10px;
+}
+
+.logo span {
+    color: #f6b247;
+}
+
+#navcontainer ul {
+    padding-left: 0;
+    margin-left: 0;
+    background: url(../images/menuBackground.jpg) repeat-x left top;
+    color: White;
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+
+#navcontainer ul li {
+    display: inline;
+    color: #ffffff;
+}
+
+#navcontainer ul li a {
+    padding: 18px 29px 0 30px;
+    background: url(../images/menuBackground.jpg) repeat-x left top;
+    color: #ffffff;
+    text-decoration: none;
+    float: left;
+    font-size: 24px;
+    font-family: trebuchet ms;
+    line-height: 25px;
+    outline: none;
+}
+
+#navcontainer ul li a:hover {
+    background: url(../images/menuActive.jpg) repeat-x left top;
+    color: #fff;
+    height: 60px;
+    outline: none;
+}
+
+#navcontainer .active a {
+    background: url(../images/menuActive.jpg) repeat-x left top;
+    color: #fff;
+    height: 60px;
+    outline: none;
+}
+
+#footer {
+    text-align: center;
+    color: #e8e8e8;
+    height: 60px;
+    background: url(../images/footerBackground.jpg) repeat-x left top;
+}
+
+#footer p {
+    padding: 20px 0 0 0;
+    font-family: Verdana;
+}
+
+#navcontainer {
+    padding: 2px 0 10px 0;
+}
